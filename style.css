@@ -24,6 +24,7 @@ main {
     display: block;
     justify-content: center;
     
+    
 }
 
 header{
@@ -174,6 +175,7 @@ main h3{
     color: #ffffff;
     background-color: #1F1F1F;
     border-radius: 15px;
+    margin: auto;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -198,6 +200,7 @@ main h3{
 
 #bank-ab{
     background-color: #991A51;
+    margin: auto;
     margin-bottom: 20px;
     width: 95%;
     height: 150px;
@@ -205,6 +208,7 @@ main h3{
 }
 #bank-apb{
     background-color: #DA2127;
+    margin: auto;
     margin-bottom: 20px;
     width: 95%;
     height: 150px;
@@ -212,6 +216,7 @@ main h3{
 }
 #bank-sbi{
     background-color: #5936f8;
+    margin: auto;
     margin-bottom: 20px;
     width: 95%;
     height: 150px;
@@ -219,6 +224,7 @@ main h3{
 }
 #bank-pnb{
     background-color: #9F1945;
+    margin: auto;
     margin-bottom: 20px;
     width: 95%;
     height: 150px;
