@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Reddit Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Define color variables */
+:root {
+    --primary-color: #1f1f1f;
+    --secondary-color: #03dac5;
+    --text-color: #ffffff;
+    --background-color: #121212;
+}
+body{
+    background-color: var(--background-color);
+}
+
+main {
+    width: 360px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    
+}
+
+header{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    margin: 1vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+    
+}
+
+header div img {
+    height: 50px;
+    border-radius: 50%;
+    /*box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8); /* White glow effect */
+    object-fit: cover; /* Ensures the image fits well */
+    background-color: white; /* Helps blend with the glow */
+    
+}
+
+main h3{
+    color: #ffffff;
+    margin: 25px;
+}
+.card{
+    width: 95%;
+    aspect-ratio: 410/230;
+    background: linear-gradient(to right, #5F0D0F,#DA2127, #5F0D0F);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.fox4{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 40px 0 40px;
+}
+.bank-logo{
+    margin: 10px;
+    height: 30px;
+}
+.contactless {
+    width: 30px;
+}
+.chip{
+    width: 40px;
+}
+.card-no{
+    font-size: 1.5em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px ;
+    margin-top: 10px;
+}
+
+.validity{
+    display: block;
+    margin-left: 40px;
+}
+.validity2{
+    display: block;
+    margin-left: 0px;
+}
+
+.fox3{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: top;
+}    
+.fox1{
+    color: #ffffff;
+    font-size: 0.5em;
+    
+}
+.fox2{
+    color: #ffffff;
+}
+.fox5 img{
+    height: 50px;
+    margin-left: 0px;
+}
+
+
+.card2{
+    width: 95%;
+    aspect-ratio: 410/230;
+    background: linear-gradient(to right, #2f00ff,#5936f8, #2f00ff);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.fox6 img{
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 20px ;
+}
+
+.card3{
+    width: 95%;
+    aspect-ratio: 410/230;
+    background: linear-gradient(to right, #9F1945,#bb1d52, #9F1945);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.fox7 img{
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 20px ;
+}
+
+
+.card4{
+    width: 95%;
+    aspect-ratio: 410/230;
+    background: linear-gradient(to right, #991A51,#be3a73, #991A51);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.card5{
+    width: 95%;
+    aspect-ratio: 410/230;
+    background: linear-gradient(to right,  #991A51,#be3a73, #991A51);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.account-input::-webkit-outer-spin-button,
+.account-input::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Chrome, Safari, Edge */
+    margin: 0;
+}
+
+.main-btn{
+    width: 95%;
+    height: 100px;
+    color: #ffffff;
+    background-color: #1F1F1F;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-btn h2{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bank-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bank-btn img{
+    height: 50px;
+}
+
+#bank-ab{
+    background-color: #991A51;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 150px;
+    border-radius: 15px;
+}
+#bank-apb{
+    background-color: #DA2127;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 150px;
+    border-radius: 15px;
+}
+#bank-sbi{
+    background-color: #5936f8;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 150px;
+    border-radius: 15px;
+}
+#bank-pnb{
+    background-color: #9F1945;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    color: #ffffff;
+    font-style: italic;
+}
+
+
+
+/*for responsivenes*/
+@media (max-width: 900px) {
+    body {
+      font-size: 0.7em;
+    }   
+
+}
+  
+@media (max-width: 825px) {
+    body {
+        font-size: 1em;
+    }
+
+    main {
+        display: block;
+    }
+
+}
