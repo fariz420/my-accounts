@@ -51,11 +51,6 @@ header div img {
     
 }
 
-
-main h3{
-    color: #ffffff;
-    margin: 25px;
-}
 .card{
     width: 95%;
     aspect-ratio: 410/230;
@@ -344,6 +339,9 @@ main h3{
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 10px;
+    transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
+  animation-delay: 0.2s;
 }
 
 .card-top{
@@ -354,6 +352,48 @@ main h3{
     color: #ffffff;
     font-style: italic;
 }
+
+.pb-card{
+    width: 95%;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
+    
+}
+.pb-card-2{
+    width: 95%;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+    
+}
+
+.details{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bank-name{
+    color: #ffffff;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 
 
 
