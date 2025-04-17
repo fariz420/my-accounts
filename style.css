@@ -19,7 +19,7 @@ body{
 }
 
 main {
-    height: 100vh;
+    height: 87vh;
     width: 360px;
     margin: auto;
     display: block;
@@ -31,6 +31,7 @@ header{
     background-color: var(--primary-color);
     color: #ffffff;
     display: flex;
+    height: 12vh;
     margin: 1vh;
     width: 100%;
     justify-content: space-between;
