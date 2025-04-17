@@ -19,12 +19,12 @@ body{
 }
 
 main {
+    height: 100vh;
     width: 360px;
     margin: auto;
     display: block;
     justify-content: center;
-    
-    
+     
 }
 
 header{
@@ -51,6 +51,7 @@ header div img {
     
 }
 
+
 main h3{
     color: #ffffff;
     margin: 25px;
@@ -62,6 +63,9 @@ main h3{
     border-radius: 10px;
     margin: auto;
     margin-bottom: 40px;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
 }
 .fox4{
     display: flex;
@@ -123,6 +127,9 @@ main h3{
     border-radius: 10px;
     margin: auto;
     margin-bottom: 40px;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
 }
 .fox6 img{
     height: 30px;
@@ -137,6 +144,10 @@ main h3{
     border-radius: 10px;
     margin: auto;
     margin-bottom: 40px;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
+
 }
 .fox7 img{
     height: 30px;
@@ -152,6 +163,9 @@ main h3{
     border-radius: 10px;
     margin: auto;
     margin-bottom: 40px;
+    opacity: 0;
+   transform: translateY(50px);
+   animation: slideUpCard 0.8s ease-out forwards;
 }
 
 .card5{
@@ -161,7 +175,50 @@ main h3{
     border-radius: 10px;
     margin: auto;
     margin-bottom: 40px;
+    opacity: 0;
+   transform: translateY(50px);
+   animation: slideUpCard 0.8s ease-out forwards;
+   animation-delay: 0.2s; /* optional: slight delay for staggered effect */
+
 }
+
+.card6{
+    width: 95%;
+    aspect-ratio: 410/230;
+    background: linear-gradient(to right, #2f00ff,#5936f8, #2f00ff);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.card7{
+    width: 95%;
+    aspect-ratio: 410/230;
+    background: linear-gradient(to right, #9F1945,#bb1d52, #9F1945);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+    opacity: 0;
+  transform: translateY(50px);
+  animation: slideUpCard 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+
+}
+
+@keyframes slideUpCard {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+
+
+
 
 .account-input::-webkit-outer-spin-button,
 .account-input::-webkit-inner-spin-button {
@@ -171,7 +228,7 @@ main h3{
 
 .main-btn{
     width: 95%;
-    height: 100px;
+    height: 130px;
     color: #ffffff;
     background-color: #1F1F1F;
     border-radius: 15px;
@@ -181,6 +238,34 @@ main h3{
     justify-content: center;
     align-items: center;
 }
+
+.main-btn:hover {
+    background-color: #272728;
+}
+
+.main-btn {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 0.8s ease-out forwards;
+}
+  
+  /* Delay for the second button */
+.main-btn:nth-child(2) {
+    animation-delay: 0.1s;
+}
+.main-btn:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+  
+@keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+  
 
 .main-btn h2{
     justify-content: center;
@@ -205,6 +290,8 @@ main h3{
     width: 95%;
     height: 150px;
     border-radius: 15px;
+    transform: translateX(-100px);
+    animation-delay: 0s;
 }
 #bank-apb{
     background-color: #DA2127;
@@ -213,6 +300,8 @@ main h3{
     width: 95%;
     height: 150px;
     border-radius: 15px;
+    transform: translateX(100px);
+  animation-delay: 0s;
 }
 #bank-sbi{
     background-color: #5936f8;
@@ -221,6 +310,9 @@ main h3{
     width: 95%;
     height: 150px;
     border-radius: 15px;
+    transform: translateX(-100px);
+  animation-delay: 0s;
+
 }
 #bank-pnb{
     background-color: #9F1945;
@@ -229,6 +321,19 @@ main h3{
     width: 95%;
     height: 150px;
     border-radius: 15px;
+    transform: translateX(100px);
+  animation-delay: 0s;
+}
+.bank-btn {
+    opacity: 0;
+    animation: slideIn 0.8s ease-out forwards;
+}
+
+@keyframes slideIn {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
 }
 
 .back-btn {
