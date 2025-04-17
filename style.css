@@ -243,7 +243,7 @@ header div img {
 .main-btn {
     opacity: 0;
     transform: translateY(50px);
-    animation: slideUp 0.8s ease-out forwards;
+    animation: slideUp 0.5s ease-out forwards;
 }
   
   /* Delay for the second button */
